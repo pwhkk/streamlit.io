@@ -2,8 +2,8 @@ name: Auto Click Streamlit
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '1 0,6,12,18 * * *'  
+  #schedule:
+    #- cron: '1 0,6,12,18 * * *'  
   repository_dispatch:
     types: [argo-tunnel-down]
 
